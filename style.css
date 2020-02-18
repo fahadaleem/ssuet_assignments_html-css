@@ -1,0 +1,191 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.hero-area
+{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 10%;
+    margin-top: 3%;
+}
+
+.hero-area > h1
+{
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 300;
+}
+
+
+.hero-area
+{
+    padding-top: 5%;
+
+}
+
+.hero-area >p
+{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100 !important;
+}
+
+.signup, .checkout
+{
+    padding:10px 20px 10px 20px;
+    background-color: transparent;
+    border-radius: 5%;
+    border: 1px solid gray;
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+
+.signup
+{
+    background-color: rgb(38, 129, 204);
+    color:white;
+}
+
+.checkout
+{
+    background-color: gray;
+    color: white;
+}
+
+.signup:hover
+{
+    background-color: rgb(14, 79, 133);
+    color:white;
+    cursor: pointer;
+}
+.checkout:hover
+{
+    background-color:  rgb(65, 63, 63);
+    color:white;
+    cursor: pointer;
+}
+
+.album-section
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.album
+{
+    width: 32%;
+    border: 1px solid rgb(141, 136, 136);
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img
+{
+    background-color: gray;
+    height: 250px;
+}
+
+.img >h1
+{
+    color:white;
+    text-align: center;
+    padding-top:100px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.content-sec
+{
+    padding: 20px;
+}
+
+.btn
+{
+    border:none;
+    background: transparent;
+    border:1px solid gray;
+    border-radius: 2px;
+    padding:10px 15px 10px 15px;
+}
+
+
+
+.btn:hover
+{
+    background-color: gray;
+    color:white;
+    cursor: pointer;
+}
+
+.edit
+{
+    margin-left: -4px;
+}
+
+@media(max-width:786px)
+{
+    .album-section
+    {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+
+    .album
+    {
+        width: 95%;
+        margin: auto;
+    }
+
+    .hero-area
+    {
+        width: 100%;
+    }
+}
+
+.content
+{
+    background-color:#F8F9FA;
+}
+
+.content-area
+{
+    width: 80%;
+    margin: auto;
+    color:gray;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.footer-para
+{
+    line-height: 24px;
+}
+
+.links
+{
+    color:#008EFF;
+    text-decoration: none;
+}
