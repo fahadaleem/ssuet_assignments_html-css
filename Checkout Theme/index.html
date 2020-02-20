@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="img">
+        <img class="Bootstrap-img" src="bootstrap.JPG" width="150px" height="120px">
+    </div>
+        <h1 class="checkout-heading">
+            Checkout Form
+        </h1><br>
+        <p class="head-para">Below is an example of built entirely from bootstrap controls. Each required form group has a validation
+            state that can be triggred by attemping to submit the form without completing it.
+        </p>
+    </header>
+
+    <section class="forms">
+        <div class="billing-Address">
+            <h1 >Billing address</h1>
+            <form>
+                <div class="names">
+                    <div class="firstname">
+                        <label class="labels">First Name</label>
+                        <input type="text" class="name first-name">
+                    </div>
+                    <div class="lastname">
+                        <label class="labels">Last Name</label>
+                        <input type="text" class="name last-name">
+                    </div>
+                </div>
+
+                <label style="display: inline-block;padding-top: 10px; padding-bottom: 10px;">Username</label>
+               <span>@</span> <input type="text" class="name username" placeholder="Username">
+               <label style="display: inline-block;padding-top: 10px; padding-bottom: 10px;">Email</label>
+                <input type="text" class="name" placeholder="you@example.com">
+                <label style="display: inline-block;padding-top: 10px; padding-bottom: 10px;">Address</label>
+                <input type="text" class="name" placeholder="1234 Main St">
+                <label style="display: inline-block;padding-top: 10px; padding-bottom: 10px;">Address 2</label>
+                <input type="text" class="name" placeholder="Appartment or suite">
+
+               <div class="region-selection">
+                   <div class="country">
+                    <label style="display: block;padding-top: 10px; padding-bottom: 10px;">Username</label>
+                    <select>
+                        <option>Choose....</option>
+                        <option>United State</option>
+
+                    </select>
+                   </div>
+                   <div class="state">
+                    <label style="display: block;padding-top: 10px; padding-bottom: 10px;">State</label>
+                    <select>
+                        <option>Choose....</option>
+                        <option>United State</option>
+
+                    </select>
+                   </div>
+                   <div class="zip">
+                    <label style="display: block;padding-top: 10px; padding-bottom: 10px;">Zip</label>
+                <input type="text" class="name">
+
+                   </div>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <input type="checkbox" class="checkboxes"><lable> Shipping address is the same as my billing address</lable>
+            <br>
+            <input type="checkbox" class="checkboxes"><lable> Save this information for next time</lable>
+<br><br>
+<hr>
+<br>
+<h1>Payment</h1><br>
+<input type="radio" checked="checked" name="payment"><label> Credit Card</label><br>
+<input type="radio" name="payment"><label> Debit Card</label><br>
+<input type="radio" name="payment"><label> Paypal</label>
+<div class="card-details">
+    <div class="name-on-card">
+        <label style="display: block;padding-top: 10px; padding-bottom: 10px;">Name on card</label>
+        <input type="text" class="name">
+        <p style="font-size:14px;color:rgb(129, 127, 127)">full name as display on card</p>
+    </div>
+    <div class="number-on-card">
+        <label style="display: block;padding-top: 10px; padding-bottom: 10px;">Number on card</label>
+        <input type="text" class="name">
+        <br>
+    </div><br>
+
+</div>
+<div class="card-details-extra">
+    <div id="expiration">
+        <label style="display: block;padding-top: 10px; padding-bottom: 10px;">Expiration</label>
+        <input type="text" class="name">
+    </div>
+    <div id="CVV">
+        <label style="display: block;padding-top: 10px; padding-bottom: 10px;">CVV</label>
+        <input type="text" class="name">
+        <br>
+    </div><br>
+    
+</div>
+<br>
+<hr>
+<br>
+<button class="name checkout-btn">Continoue to checkout</button>
+            </form>
+        </div>
+        <div class="cart">
+            <h1 class="your-cart">Your Cart</h1>
+           <h3>3</h3>
+           <br><br>
+           <div class="product-sec">
+                <div class="inner-sec">
+                    <p class="items">Product name<br>
+                        <label class="prod-desc">Brief description</label></p>
+                        <p class="price">$12</p>
+                </div>
+                <div class="inner-sec">
+                    <p class="items"> Second Product<br>
+                        <label class="prod-desc">Brief description</label></p>
+                        <p class="price">$8</p>
+
+                </div>
+                <div class="inner-sec">
+                    <p class="items">Third Item<br>
+                        <label class="prod-desc">Brief description</label></p>
+                        <p class="price">$5</p>
+
+                </div>
+                <div class="inner-sec spec">
+                    <p class="items">Promo Code<br>
+                        <label class="prod-desc">Brief description</label></p>
+                        <p class="price">$-5</p>
+
+                </div>
+                <div class="inner-sec total">
+                    <p class="items">Total USD<br>
+                        <p class="price">$20</p>
+
+                </div>
+           </div>
+           <br>
+           <div class="redeem">
+               <input type="text" placeholder="Promo Code" class="name redeem-text">
+               <button class="redeem-btn">Redeem</button>
+           </div>
+        </div>
+    </section>
+<br>
+<br>
+<footer>
+    <p>© 2017-2019 Company Name</p>
+    <ol>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Services</a></li>
+
+    </ol>
+</footer>
+    </body>
+</html>

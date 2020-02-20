@@ -1,0 +1,277 @@
+*
+{
+    margin:0;   
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Century Gothic';
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.checkout-heading,.head-para
+{
+    text-align: center;
+
+}
+
+.img
+{
+    width: 12%;
+    margin:auto;
+}
+
+.head-para
+{
+    font-size: 22px;
+    line-height: 32px;
+    color:gray;
+    font-weight: 100;
+}
+.forms
+{
+    width: 80%;
+    margin: auto;
+}
+.billing-Address
+{
+    width: 70%;
+    height: 500px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.cart
+{
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    float: right;
+}
+
+
+.firstname
+{
+    width: 48%;
+    float: left
+}
+
+.lastname
+{
+    width: 48%;
+    float: right;
+}
+
+.name
+{
+    width: 100%;
+    padding:8px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    border:none;
+    border:1px solid gray;
+    border-radius: 3%;
+}
+
+.user-name
+{
+    width: 97.8%;
+    float: right;
+}
+
+.labels
+{
+    padding-bottom:10px;
+    display: block;
+    padding-top: 10px;
+}
+
+span
+{
+    border:1px solid black;
+    padding:10px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    position: absolute;
+    background-color: #E9ECEF;
+    bottom: 22.7%;
+    left: 11.5%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.username
+{
+    padding-left: 40px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+.region-selection
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.country, .state, .zip
+{
+    width: 30%;
+}
+
+select
+{
+    padding:10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+select:hover
+{
+    cursor: pointer;
+}
+
+.card-details
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-on-card, .number-on-card
+{
+    width: 45%;
+}
+
+.card-details-extra
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-btn
+{
+    background-color: #0069D9;
+    color:white;
+    font-size: 20px;
+}
+
+.your-cart
+{
+    display: inline-block;
+    width: 40%;
+}
+
+h3
+{
+    
+    float: right;
+    text-align: right;
+    background-color: #6C757D;
+    color:white;
+    padding:5px 15px 5px 15px; 
+    border: 1px solid #6C757D;;
+    border-radius: 40px;
+    
+
+}
+
+.product-sec
+{
+    background-color: tomato;
+    border: 1px solid #DFDFDF;
+}
+
+.inner-sec
+{
+    height: 80px;
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    padding:10px;
+}
+
+.prod-desc
+{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.spec
+{
+    color:#28A745;
+    background-color: rgb(238, 238, 240);
+}
+
+.items
+{
+    font-weight: bold;
+    width: 60%;
+    float: left;
+}
+
+.price
+{
+    width: 20%;
+    float: right;
+}
+
+.total
+{
+    padding-bottom: 5px;
+    height: 50px;
+}
+
+.redeem
+{
+    padding:10px;
+    border:1px solid #DFDFDF;
+}
+
+.redeem-text
+{
+    width: 71%;
+}
+
+.redeem-btn
+{
+    padding:10px;
+    float: right;
+    background-color: #5A6268;
+    color:white;
+    border-radius: 5px;
+    width:30%;
+    margin-left: -5px;
+}
+
+.redeem-btn:hover
+{
+    cursor: pointer;
+}
+
+footer
+{
+    text-align: center;
+    
+}
+
+ol, a
+{
+    text-decoration: none;
+    color:#0069D9;
+
+}
+
+ol
+{
+    padding-top: 10px;
+}
+
+li
+{
+    display: inline;
+    padding:5px;
+}
